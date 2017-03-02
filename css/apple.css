@@ -107,8 +107,22 @@ h4 {
 #footer2 {
     background: #f2f2f2;
     height: 100px;
-    padding-left: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
 }
 section {
+    font-size: 0.5px;
+    font-family: "Fira Code",sans-serif;
+    font-weight: 200;
     border-bottom: 1px solid #d6d6d6;
+}
+a {
+    color: #0070c9;
+    text-decoration: none;
+}
+#footer2-1 {
+    font-size: 0.5px;
+    font-family: "Fira Code",sans-serif;
+    font-weight: 200;
 }
