@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+    padding: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+#container {
+    background: wheat;
+    width: 1000px;
+    margin: auto;
+}
+
+#header {
+    background: plum;
+    height: 300px;
+}
+
+#left,
+#center,
+#right {
+    float: left;
+    height: 1000px;
+}
+
+#left {
+    background: powderblue;
+    width: 100px;
+}
+
+#center {
+    background: lightsalmon;
+    width: 300px;
+}
+
+#right {
+    background: lightseagreen;
+    width: 600px;
+    margin: auto;
+}
+
+#up,
+#down {
+    float: left;
+    width: 600px;
+    height: 500px;
+}
+
+#up {
+    background: burlywood;
+}
+
+#down {
+    background: midnightblue;
+}
+
+#footer {
+    background: hotpink;
+    height: 100px;
+}

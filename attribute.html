@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>attribute</title>
+    <style>
+        [id=h2]{
+            color: blue;
+        }
+        .test{
+            color: salmon;
+            text-decoration: underline;
+        }
+        .bg{
+            color: palegreen;
+        }
+        [class~=test]{
+            text-decoration: #ff5b7e;
+        }
+        /*[class|=bg]{*/
+            /*text-decoration: underline; // 属性的值必须是整个单词*/
+        /*}*/
+        [class^=bg]{
+            text-line-through-color: #fff618;  //属性的值可以是一部分
+        }
+    </style>
+</head>
+<body>
+<h1>hello,CSS</h1>
+<h2 id="h2">hello,CSS</h2>
+<p id="some" class="bgtest">hello,CSS!!!</p>
+<p class="bg">hello,CSS</p>
+</body>
+</html>

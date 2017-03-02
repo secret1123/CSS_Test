@@ -1,0 +1,21 @@
+/* style.css */
+h1 {
+    color: #f00;
+    background: #00f;
+}
+span {
+    background: lightgoldenrodyellow;
+}
+
+.red {
+    color: aqua;
+}
+
+.big {
+    font-family: "Andale Mono",monospace;
+    font-size: 60px;
+}
+
+.dog {
+    text-decoration: underline;
+}

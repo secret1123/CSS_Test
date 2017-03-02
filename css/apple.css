@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+
+body {
+    background: #fff;
+    height: 1200px;
+
+}
+#header {
+    float: left;
+    position: fixed;
+    /*font-size: 14px;*/
+    /*line-height: 1.52947;*/
+    /*font-weight: 400;*/
+    /*letter-spacing: -.021em;*/
+    /*font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;*/
+    /*background: #000;*/
+    opacity: 1;
+    height: 40px;
+    margin: 0;
+    width: 100%;
+    /*cursor: pointer;*/
+    /*display: inline-block;*/
+    /*list-style: none;*/
+}
+
+#head1,#head2,#head3,#head4,#head5,#head6,#head7,#head8,#head9,#head10 {
+    /*color: #fff;*/
+    float: left;
+    width: 48px;
+    height: 10px;
+    background: transparent;
+    /*font-size: 17px;*/
+    /*font-family: "Arial",sans-serif;*/
+    margin-left: 20px ;
+    padding-right: 38px;
+    cursor: pointer;
+}
+/*#head2:hover,#head3:hover,#head4:hover,#head5:hover,#head6:hover,#head7:hover,#head8:hover{*/
+    /*cursor: pointer;*/
+    /*color: silver;*/
+/*}*/
+#head1 {
+    margin-left: 150px;
+    /*padding-bottom: 20px;*/
+}
+#content {
+    background: black;
+    height: 500px;
+    /*background-image: url("../image/watch_alt_large_2x.jpg") ;*/
+}
+#big1 {
+    float: left;
+}
+#small {
+    /*float: left;*/
+    position: absolute;
+    top:100px;
+    left:550px;
+    color: #ffffff;
+    z-index: 10;
+    font-size: 40px;
+}
+#thr1,#thr2,#thr3,#thr4 {
+    float: left;
+    margin-top: -3px;
+}
+#thr2,#thr3,#thr4 {
+    padding-left: 2px;
+}
+h4 {
+    font-family: "Fira Code",sans-serif;
+    font-weight: 500;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+#footer {
+    font-family: ".SF NS Text","Helvetica Neue","Arial", sans-serif;
+    height:300px;
+    background: #f2f2f2;
+    font-size: 12px;
+    /*font-weight: 400;*/
+    padding-top: 5px;
+    margin-top: -3px;
+}
+#inp1,#inp2,#inp3,#inp4,#inp5 {
+    margin-left:60px ;
+    color: dimgrey;
+    float: left;
+    /*font-size: 1em;*/
+    padding: 30px;
+    cursor: pointer;
+
+}
+.ul {
+    font-family: "Fira Code Light",sans-serif ;
+    font-weight: 200;
+    list-style: none;
+    margin-right: 20px ;
+    font-size: 1em;
+}
+#footer2 {
+    background: #f2f2f2;
+    height: 100px;
+    padding-left: 60px;
+}
+section {
+    border-bottom: 1px solid #d6d6d6;
+}
